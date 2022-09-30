@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle</title>
+  <link rel="stylesheet" href="index.css"/>
+
+  <style>
+    table, th, td {
+      border:1px solid rgba(52, 127, 194, 0.732);
+    }
+    </style>
+</head>
+<body>
+
+  <nav class="header">
+    <h1 id="fun" >Fun with triangles</h1>
+    <ul>
+      <li class="page bottom" id="p1"><a href="/">Is triangle?</a> </li>
+      <li class="page bottom" id="p2"><a href="/">Quiz</a></li>
+      <li class="page bottom" id="p3"><a href="/">Hypotenus</a></li>
+      <li class="page bottom" id="p4"><a href="/">Area</a></li>
+    </ul>
+  </nav>
+  <br> <br>
+  <div class="container">
+    
+
+  <div class="tr" id="triangle"></div>
+<h1 id="is">Is It Triangle ?</h1>
+    <h2>Enter angles in degree</h2>
+
+    <table>
+      <tr>
+        <th >First Angle</th>
+        <th >Second Angle</th>
+        <th >Third Angle</th>
+      </tr>
+     <tr>
+      <td><input id="first" type="number" placeholder="enter positive angle"> </td>
+      <td><input id="second" type="number" placeholder="enter positive angle"> </td>
+      <td><input id="third" type="number" placeholder="enter positive angle"> </td>
+     </tr> 
+    </table>
+    <br>
+    <input id="IsTriangle" type="button" value="Is Triangle">
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
